@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ayi Kitchen - African and West African Cuisine"
+    />
+    <title>Ayi Kitchen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(120deg, #f2c16c 0%, #f7e9c4 100%);
+        font-family: "Comic Neue", "Comic Sans MS", cursive, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 60px 10px 60px;
+        background: transparent;
+      }
+      .logo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        border: 4px solid #fff;
+        background: #fff;
+      }
+      nav {
+        display: flex;
+        gap: 30px;
+      }
+      nav a {
+        color: #a14a00;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        transition: color 0.2s;
+      }
+      nav a:hover {
+        color: #e43737;
+      }
+      .hero {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      .hero h1 {
+        font-size: 3.2em;
+        margin: 0 0 10px 0;
+        color: #e43737;
+        letter-spacing: 2px;
+      }
+      .hero h2 {
+        font-size: 2em;
+        color: #a14a00;
+        margin: 0 0 30px 0;
+        font-weight: 400;
+      }
+      .summary {
+        max-width: 900px;
+        margin: 0 auto 40px auto;
+        font-size: 1.3em;
+        color: #222;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 18px;
+        padding: 30px 40px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        margin: 40px auto 0 auto;
+        max-width: 1200px;
+      }
+      .gallery img {
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+        background: #fff;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 24px rgba(228, 55, 55, 0.18);
+        opacity: 0.85;
+      }
+      .social {
+        text-align: center;
+        margin: 50px 0 30px 0;
+      }
+      .social a {
+        display: inline-block;
+        margin: 0 18px;
+        font-size: 1.5em;
+        color: #e43737;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .social a:hover {
+        color: #a14a00;
+      }
+      footer {
+        text-align: center;
+        color: #a14a00;
+        font-size: 1em;
+        margin-bottom: 18px;
+        margin-top: 40px;
+      }
+      @media (max-width: 700px) {
+        header {
+          flex-direction: column;
+          gap: 18px;
+          padding: 20px 10px 10px 10px;
+        }
+        .hero h1 {
+          font-size: 2em;
+        }
+        .hero h2 {
+          font-size: 1.2em;
+        }
+        .gallery img {
+          width: 98vw;
+          height: 140px;
+        }
+        .summary {
+          padding: 18px 8px;
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="ayi kitchen/channels4_ayikitchen.jpg"
+        alt="Ayi Kitchen Logo"
+      />
+      <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#social">Social</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Welcome to Ayi Kitchen</h1>
+      <h2>Where cooking is the Art you can taste.</h2>
+    </section>
+    <section class="summary" id="about">
+      <strong>Ayi Kitchen</strong> is a YouTube channel that celebrates the
+      richness of African, especially West African, cuisine. The host shares
+      delicious home-cooked recipes—from Jollof rice and Egusi soup to plantain
+      dishes and snacks—making traditional cooking approachable and fun. With a
+      warm personality and step-by-step instructions, Ayi Kitchen brings the
+      heart of African cooking to kitchens around the world.<br /><br />
+      <strong>Popular Recipes:</strong>
+      <ul>
+        <li>Jollof Rice</li>
+        <li>Egusi Soup</li>
+        <li>Fried Plantains</li>
+        <li>Akara (Bean Fritters)</li>
+        <li>Chicken Stew</li>
+        <li>Rice Dishes</li>
+        <li>Vegetarian Options</li>
+      </ul>
+      <strong>What makes Ayi Kitchen special?</strong>
+      <ul>
+        <li>Authentic African recipes with easy-to-follow instructions</li>
+        <li>Focus on healthy, home-cooked meals</li>
+        <li>Tips and tricks for perfect results</li>
+        <li>Engaging cooking videos and music</li>
+      </ul>
+      <strong>Join the Ayi Kitchen Community:</strong>
+      <ul>
+        <li>Subscribe on YouTube for weekly recipe videos</li>
+        <li>
+          Follow on Instagram, Facebook and TikTok for behind-the-scenes and
+          quick tips
+        </li>
+        <li>Contact for collaborations or recipe requests</li>
+      </ul>
+    </section>
+    <section class="gallery" id="gallery">
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 192753.png"
+        alt="Delicious Nigerian Roasted Plantain, Fish and Pepper Sauce "
+        onclick="showDishName('Delicious Nigerian Roasted Plantain, Fish and Pepper Sauce ')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 193538.png"
+        alt="grilled tilapia fish and pepper sauce with fried yam"
+        onclick="showDishName('grilled tilapia fish and pepper sauce with fried yam')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 193626.png"
+        alt="Delicious Nigerian suya meat"
+        onclick="showDishName('Delicious Nigerian suya meat')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 194209.png"
+        alt="Jollof rice with prawns"
+        onclick="showDishName('Jollof rice with prawns')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 194358.png"
+        alt=" Authentic Buka Stew, Homemade Ewedu and Plantain Fufu"
+        onclick="showDishName(' Authentic Buka Stew, Homemade Ewedu and Plantain Fufu')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 194720.png"
+        alt="vegetables soup (efo riro)"
+        onclick="showDishName('Vegetable soup (efo riro)')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 195044.png"
+        alt="NIGERIAN EGUSI SOUP AND YELLOW GARRI (EBA)"
+        onclick="showDishName('NIGERIAN EGUSI SOUP AND YELLOW GARRI (EBA)')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 195457.png"
+        alt=" beetroot, pineapple,ginger, lime juice"
+        onclick="showDishName(' Beetroot, pineapple,ginger, lime juice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 195624.png"
+        alt="healthy green smoothies"
+        onclick="showDishName('healthy green smoothies')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 195826.png"
+        alt="orange carrot ginger juice"
+        onclick="showDishName('orange carrot ginger juice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 195916.png"
+        alt="Organic Green Smoothie And Nuts Berries Smoothie"
+        onclick="showDishName('Organic Green Smoothie And Nuts Berries Smoothie')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 200127.png"
+        alt="healthy berries smoothies"
+        onclick="showDishName('healthy berries smoothies')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 200201.png"
+        alt="Healthy Food Replacement Smoothies"
+        onclick="showDishName('Healthy Food Replacement Smoothies')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 200451.png"
+        alt="healthy waffle berries with lemon honey juice"
+        onclick="showDishName('healthy waffle berries with lemon honey juice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 201006.png"
+        alt="coconut rice with oven baked red thilapiafish"
+        onclick="showDishName('coconut rice with oven baked red thilapiafish')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 201327.png"
+        alt="Mix berries and nuts ice smoothie"
+        onclick="showDishName('Mix berries and nuts ice smoothie')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 201444.png"
+        alt=" chinese egg fried rice with shrimp"
+        onclick="showDishName('chinese egg fried rice with shrimp')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202114.png"
+        alt="spicy chicken gizzard + Bell pepper"
+        onclick="showDishName('spicy chicken gizzard + Bell pepper')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202348.png"
+        alt="Oven baked catfish with pepperoni sauce"
+        onclick="showDishName('Oven baked catfish with pepperoni sauce')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202441.png"
+        alt="Delicious Nigerian Jollof rice with spicy red thilapiafish and shrimps"
+        onclick="showDishName('Delicious Nigerian Jollof rice with spicy red thilapiafish and shrimps')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202521.png"
+        alt="whole wheat spaghetti tomatoes sauce with mincemeat"
+        onclick="showDishName('whole wheat spaghetti tomatoes sauce with mincemeat')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202611.png"
+        alt="vegetables eggrice with smoked turkeywings"
+        onclick="showDishName('vegetables eggrice with smoked turkeywings')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202644.png"
+        alt="assorted goat meat pepper soup"
+        onclick="showDishName('assorted goat meat pepper soup')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 202959.png"
+        alt="delicious, healthy carrot snacks"
+        onclick="showDishName('delicious, healthy carrot snacks')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203024.png"
+        alt="delicious stir fry shrimps with vegetable sauce "
+        onclick="showDishName('delicious stir fry shrimps with vegetable sauce ')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203044.png"
+        alt="spicy goat meat fried rice"
+        onclick="showDishName('spicy goat meat fried rice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203110.png"
+        alt="spicy seefood with corn and carrot"
+        onclick="showDishName('spicy seefood with corn and carrot')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203140.png"
+        alt="homemade nigerian suya (delicious suya)"
+        onclick="showDishName(' homemade nigerian suya (delicious suya)')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203213.png"
+        alt="mixed vegetables coconut sauce with oven baked salmon fish and corn white rice"
+        onclick="showDishName('mixed vegetables coconut sauce with oven baked salmon fish and corn white rice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203240.png"
+        alt="Broccoli sunflower nuts brawn bread with eggs, tuna, cheese, and garlic sauce"
+        onclick="showDishName('Broccoli sunflower nuts brawn bread with eggs, tuna, cheese, and garlic sauce')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203325.png"
+        alt="coconut cream spaghetti with homemade carrot chicken sausage and spinach"
+        onclick="showDishName('coconut cream spaghetti with homemade carrot chicken sausage and spinach')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203705.png"
+        alt=" boiled plantain with oil bean sauce and thilapiafish"
+        onclick="showDishName(' boiled plantain with oil bean sauce and thilapiafish')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203732.png"
+        alt="green native stew with assorted protein and white rice"
+        onclick="showDishName(' green native stew with assorted protein and white rice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203758.png"
+        alt="Delicious africa salad (abacha)"
+        onclick="showDishName('Delicious africa salad (abacha)')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203818.png"
+        alt="mix beans porridge"
+        onclick="showDishName('mix beans porridge')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203845.png"
+        alt="ram meat mushrooms sauce with kidneybeans white rice"
+        onclick="showDishName('ram meat mushrooms sauce with kidneybeans white rice')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 203907.png"
+        alt="Spicy red thilapia fish sauce with bok choy"
+        onclick="showDishName('Spicy red thilapia fish sauce with bok choy')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 210009.png"
+        alt="Delicious carrot Jollof rice and spicy thilapia fish"
+        onclick="showDishName('Delicious carrot Jollof rice and spicy thilapia fish')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 210137.png"
+        alt="Nuts nougat cream snacks"
+        onclick="showDishName('Nuts nuss nougat cream snacks')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 210318.png"
+        alt="Yummy Peppered Tilapiafish"
+        onclick="showDishName('Yummy Peppered Tilapiafish')"
+      />
+      <img
+        src="ayi kitchen/Screenshot 2025-01-25 210531.png"
+        alt="stir fry shrimps with lettuce salad and shrimp cream"
+        onclick="showDishName('stir fry shrimps with lettuce salad and shrimp cream')"
+      />
+      <img
+        src="ayi kitchen/shared image (1).png"
+        alt="delicious oven baked spicy catfish in hot sauce"
+        onclick="showDishName('delicious oven baked spicy catfish in hot sauce')"
+      />
+      <img
+        src="ayi kitchen/shared image (2).png"
+        alt="Delicious oven baked plantain with pepper sauce and baked spicy turkey"
+        onclick="showDishName('Delicious oven baked plantain with pepper sauce and baked spicy turkey')"
+      />
+      <img
+        src="ayi kitchen/shared image (3).png"
+        alt="carrot rice with assorted stew and lettuce"
+        onclick="showDishName('carrot rice with assorted stew and lettuce')"
+      />
+      <img
+        src="ayi kitchen/GIF shared image wiedergeben.png"
+        alt="Steamed Salmon, Mushrooms, Carrot and Cashew Nuts"
+        onclick="showDishName('Steamed Salmon, Mushrooms, Carrot and Cashew Nuts')"
+      />
+    </section>
+    <section class="social" id="social">
+      <a
+        href="https://www.youtube.com/@ayikitchen"
+        target="_blank"
+        title="YouTube"
+        >YouTube</a
+      >
+      <a
+        href="https://www.tiktok.com/@ayikitchen1"
+        target="_blank"
+        title="TikTok"
+        >TikTok</a
+      >
+      <a
+        href="https://www.instagram.com/ayi_kitchen14/"
+        target="_blank"
+        title="Instagram"
+        >Instagram</a
+      >
+      <a
+        href="https://www.facebook.com/ayishetu.ali.35"
+        target="_blank"
+        title="Facebook"
+        >Facebook</a
+      >
+    </section>
+    <footer>&copy; 2025 Ayi Kitchen. All rights reserved.</footer>
+    <script>
+      function showDishName(name) {
+        alert("Dish: " + name);
+      }
+    </script>
+  </body>
+</html>
